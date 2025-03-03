@@ -1,64 +1,44 @@
-## README: [中文](https://github.com/youzengjian/OdooAppBox/blob/master/README.md) | [English](https://github.com/youzengjian/OdooAppBox/blob/master/README-en.md)
+## Introduction
+OdooAppBox is a mobile application for [Odoo](https://www.odoo.com/), It can be used on Android and iPhone.
 
-## 介绍
-OdooAppBox是一款基于ionic 3框架的[Odoo](https://www.odoo.com/)专用手机APP，支持安卓和iPhone。
-
-## 必读
-本项目为开源免费的项目，但时常有人加QQ问问题，为此也投入了不少时间，但始终没有产出（FAQ、Issue、教程等）
-
-为了避免重复投入，后续使用该项目的人员，请注意以下几点要求：
-
-* 打包问题，按打包环境要求（版本完全一致）已经过验证，如有问题，可以找作者交流，唯一要求是需要在交流以后发布相关教程
-
-* 程序BUG可以直接提issue，如何提问请参考“提问的智慧”
-
-
-## 开始使用
-1. APP打包或下载
-    * 使用代码编译
-        
-        [安卓APP打包](https://github.com/youzengjian/OdooAppBox/blob/master/BUILD-ANDROID.md)
-
-        [iPhone APP打包](https://github.com/youzengjian/OdooAppBox/blob/master/BUILD-IPHONE.md)
-    * 直接下载安装
+## Getting started
+1. Build from scratch or installation from binary
+    * Build
+        [Android Apk](https://github.com/designstar333/OdooAppBox/blob/master/BUILD-ANDROID-en.md)
+        [iPhone App](https://github.com/designstar333/OdooAppBox/blob/master/BUILD-IPHONE-en.md)
+    * Installation from binary
         <table>
             <tr>
-                <th>手机类型</th>
-                <th>下载地址</th>
+                <th>Platform</th>
+                <th>Download</th>
             </tr>
             <tr>
-                <td rowspan="2">安卓</td>
-                <td>谷歌应用商店: https://play.google.com/store/apps/details?id=com.odooappbox</td>
+                <td rowspan="2">Android</td>
+                <td>Google Play: https://play.google.com/store/apps/details?id=com.odooappbox</td>
             </tr>
             <tr>
-                <td>直接下载: https://d.atknit.com/odooappbox.apk</td>
+                <td>Direct Download: https://d.atknit.com/odooappbox.apk</td>
             </tr>
             <tr>
                 <td rowspan="2">iPhone</td>
-                <td>暂不提供，如有需求可自行打包</td>
+                <td>App Store: https://apps.apple.com/us/app/odooappbox/id1465496744</td>
             </tr>
         </table>
 
-2. Odoo后台插件安装
-    详见[OdooAppBox_addons](https://github.com/youzengjian/OdooAppBox_addons)
+2. Install Odoo Backend modules
+    [OdooAppBox_addons](https://github.com/designstar333/OdooAppBox_addons)
 
-## 特色功能
-参照Odoo的视图菜单、动作、视图的配置方式，在手机APP上实现类似的功能。您无需重新打包手机APP，只需通过修改后台配置即可快速完成手机APP功能更新，从而以更低的开发成本，更快的响应速度应对客户频繁变更的需求。
+## License
+The software is distributed under [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html) with additional terms.
 
-## 授权协议
-采用包含附加条款的[AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html)协议。
+### Additional terms
+1. Keep the "About" menu displays as a root menu and the menu links to the "Home" Page.
 
-### 附加条款
-1. 将“关于”菜单作为根菜单显示，并将其链接到Home页面。
+2. Do not change the behavior of the "Home" page and ensure that the Home page always display correctly.
 
-2. 不改变Home页面的行为，并确保Home页面始终能够正常显示。
+3. Do not modify or remove any copyright declaration displayed in the software. 
 
-3. 请勿修改或移除本程序所显示的版权声明信息。
+## Contact us
+* Author: Daria Pruss
 
-## 联系我们
-* 作者: You Zengjian
-
-* 邮箱: youzengjian@gmail.com
-
-* QQ: 1294739135
-..
+* Email: dariapruss333@gmail.com

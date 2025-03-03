@@ -1,5 +1,5 @@
 ## Build Android APP
-If you want to build iPhone APP, Please click [here](https://github.com/youzengjian/OdooAppBox/blob/master/BUILD-IPHONE-en.md)
+If you want to build iPhone APP, Please click [here](https://github.com/designstar333/OdooAppBox/blob/master/BUILD-IPHONE-en.md)
 
 ## Build Environment
 * OS: Windows 10 X64
@@ -11,12 +11,12 @@ If you want to build iPhone APP, Please click [here](https://github.com/youzengj
 
 ## Customize and Build
 1. Customize
-    Customize App Info: Open [config.xml](https://github.com/youzengjian/OdooAppBox/blob/master/config.xml), modify id and version
+    Customize App Info: Open [config.xml](https://github.com/designstar333/OdooAppBox/blob/master/config.xml), modify id and version
     ```
     <widget id="com.odooappbox" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     ...
     ```
-    Customize Odoo Server Info: Open [login.ts](https://github.com/youzengjian/OdooAppBox/blob/master/src/pages/login/login.ts), modify host and db
+    Customize Odoo Server Info: Open [login.ts](https://github.com/designstar333/OdooAppBox/blob/master/src/pages/login/login.ts), modify host and db
     ```
     export class LoginPage{
     public host = 'http://demo.appbox.atknit.com';

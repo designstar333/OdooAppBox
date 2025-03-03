@@ -1,5 +1,5 @@
 ## 安卓APP打包说明
-本文档为安卓手机APP打包说明，如需iPhone APP打包，请[点击这里](https://github.com/youzengjian/OdooAppBox/blob/master/BUILD-IPHONE.md)查看
+本文档为安卓手机APP打包说明，如需iPhone APP打包，请[点击这里](https://github.com/designstar333/OdooAppBox/blob/master/BUILD-IPHONE.md)查看
 
 ## 基础环境
 * 操作系统：Windows 10 64位
@@ -11,12 +11,12 @@
 
 ## APP编译
 1. APP定制
-    修改APP信息：打开[config.xml](https://github.com/youzengjian/OdooAppBox/blob/master/config.xml)文件，找到如下代码，修改包名(id属性)和版本号(version属性)
+    修改APP信息：打开[config.xml](https://github.com/designstar333/OdooAppBox/blob/master/config.xml)文件，找到如下代码，修改包名(id属性)和版本号(version属性)
     ```
     <widget id="com.odooappbox" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     ...
     ```
-    修改Odoo服务器信息：打开[login.ts](https://github.com/youzengjian/OdooAppBox/blob/master/src/pages/login/login.ts)文件，找到如下代码，修改服务器地址和数据库名称
+    修改Odoo服务器信息：打开[login.ts](https://github.com/designstar333/OdooAppBox/blob/master/src/pages/login/login.ts)文件，找到如下代码，修改服务器地址和数据库名称
     ```
     export class LoginPage{
     public host = 'http://demo.appbox.atknit.com';
